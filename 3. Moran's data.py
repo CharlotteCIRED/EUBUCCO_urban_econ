@@ -12,7 +12,7 @@ from geopandas.tools import sjoin
 from os import listdir
 import os
 
-path_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+path_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '')
 geo_boundary = "OECD"  # GHSL, UA
 
 # Import FUAs delineations

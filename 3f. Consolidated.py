@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import os
 
-path_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+path_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '')
 
 ###### OECD FUA
 

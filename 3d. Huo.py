@@ -10,7 +10,7 @@ import geopandas as gpd
 from os import listdir
 import os
 
-path_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+path_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '')
 
 
 huo = pd.read_csv(path_folder + "Data/Near-real-time daily estimates of CO2 emissions from 1500 cities worldwide/carbon-monitor-cities-all-cities-FUA-v0325.csv")

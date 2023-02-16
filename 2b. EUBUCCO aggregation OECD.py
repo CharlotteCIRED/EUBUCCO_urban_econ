@@ -13,7 +13,7 @@ from os import listdir
 import os
 import collections
 
-path_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+path_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '')
 path_FUA_OECD = path_folder + "Data/FUA_OECD/"
 
 # Load OECD FUAs

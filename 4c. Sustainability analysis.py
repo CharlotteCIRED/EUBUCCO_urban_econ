@@ -12,7 +12,7 @@ import statsmodels.formula.api as smf
 from statsmodels.iolib.summary2 import summary_col
 import os
 
-path_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+path_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '')
 folder_FUA = path_folder + "Data/EUBUCCO_by_OECD_FUA/"
 path_outputs = path_folder + "Sorties/charts/"
 
